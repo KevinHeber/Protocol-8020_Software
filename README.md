@@ -5,8 +5,10 @@ Repository for organizing the documentation and software components.
 
 Package 1 -- Personal Profile: GUI with a long list of personal data such as age, height, weight, BMI, gender, family disease known, inheritable disease, etc.
   Storage format is XML using Numeric Identifiers & English Labels.  The GUI may support localization.
+  
 Package 2 -- Disease Profile: Using a variety of Open Source tools, create the disease profiles from public data resources.
   Storage format is XML as described elsewhere.
+  
 Package 3 -- CLI, Text or GUI interface that computes the Disease Risk Matrix and displays the results.  For each listed disease, what is the calculated risk.
   Reads the XML files, does the math, outputs with optional localization.
 
